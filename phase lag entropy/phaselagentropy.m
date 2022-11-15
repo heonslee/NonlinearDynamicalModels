@@ -7,10 +7,7 @@ function [ple, pli, pc, P]=phaselagentropy(wdata, m, tau)
 % OUTPUT
 %   ple: phase lag entropy
 %       to use matrix form: ple_mat = squareform(ple);
-%
-% 2015.7.17. Heonsoo Lee
-% 2017.12.6. Updated, Heonsoo Lee 
-% 2018.4.21. Updated, Heonsoo Lee
+% 2018.4.21. Heonsoo Lee
 
 
 [len,ch]=size(wdata);
